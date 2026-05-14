@@ -48,6 +48,12 @@
               "ai-tools/claude-code",
               "ai-tools/windsurf"
             ]
+          },
+          {
+            "group": "FAQ",
+            "pages": [
+              "faq/posting"
+            ]
           }
         ]
       },
@@ -70,6 +76,14 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Rayfield",
+        "href": "rayfield/index"
+      },
+      {
+        "tab": "Developer API",
+        "href": "developer-api/index"
       }
     ],
     "global": {
