@@ -22,13 +22,6 @@
             ]
           },
           {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
             "group": "Writing content",
             "pages": [
               "essentials/markdown",
@@ -36,7 +29,8 @@
               "essentials/images",
               "essentials/components",
               "essentials/reusable-snippets"
-            ]
+            ],
+            "hidden": true
           },
           {
             "group": "Agent ready",
@@ -47,7 +41,8 @@
               "ai-tools/cursor",
               "ai-tools/claude-code",
               "ai-tools/windsurf"
-            ]
+            ],
+            "hidden": true
           },
           {
             "group": "FAQ",
@@ -85,21 +80,7 @@
         "tab": "Developer API",
         "href": "developer-api/index"
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
