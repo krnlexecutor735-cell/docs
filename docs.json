@@ -11,15 +11,16 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "โปรแกรมเขียนโค้ดสคริป roblox",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "โปรแกรม PC โค้ด roblox",
             "pages": [
               "index",
               "quickstart",
               "development"
-            ]
+            ],
+            "icon": "code"
           },
           {
             "group": "Writing content",
@@ -48,7 +49,8 @@
             "group": "FAQ",
             "pages": [
               "faq/posting"
-            ]
+            ],
+            "hidden": true
           }
         ]
       },
@@ -70,15 +72,18 @@
               "api-reference/endpoint/webhook"
             ]
           }
-        ]
+        ],
+        "hidden": true
       },
       {
         "tab": "Rayfield",
-        "href": "rayfield/index"
+        "href": "rayfield/index",
+        "hidden": true
       },
       {
         "tab": "Developer API",
-        "href": "developer-api/index"
+        "href": "developer-api/index",
+        "hidden": true
       }
     ]
   },
